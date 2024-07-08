@@ -2,8 +2,8 @@ Project: Build a Docker Jenkins Pipeline to Implement CI/CD Workflow
 
 Objective:
 Demonstrate the continuous integration and delivery by building a Docker Jenkins Pipeline.
-Solution build should demonstrate below capabilities:
 
+Solution build should demonstrate below capabilities:
 • Availability of the application and its versions in the GitHub
 • Track their versions every time a code is committed to the repository
 • Create a Docker Jenkins Pipeline that will create a Docker image from the Dockerfile and host it on Docker Hub
@@ -16,8 +16,11 @@ Docker, Docker Hub, GitHub, Git, Linux (Ubuntu), Jenkins
 Project Expected Result:
 Jenkins pipeline with stages as shown below, demonstrating the Springboot application build and deployment process automated with Docker and Jenkins with 'Pipeline as a Code' approach
 [pipeline output image](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/Jenkins_pipeline_result.JPG?raw=true)
+
 Project Documentation
-Click [here](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/PG%20DO%20-%20DevOps%20Certification%20Training_Project-3_Vignesh_Dharmaraj.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements
+Click [here] (https://github.com/mtyagi52/devops/blob/main/Documentation%20%20a%20%E2%80%9C/Devops%20Certification%20Project)
+to access the project documentation.
+
 Solution overview:
 1) On a Linux (ubantu) machine, we are installing and configuring jenkins server.
 2) In the jenkins server we are creating the pipeline based project (with the Jenkinsfile available in this repo as source)
