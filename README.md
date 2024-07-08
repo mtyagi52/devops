@@ -15,7 +15,7 @@ Tools required:
 Docker, Docker Hub, GitHub, Git, Linux (Ubuntu), Jenkins
 Project Expected Result:
 Jenkins pipeline with stages as shown below, demonstrating the Springboot application build and deployment process automated with Docker and Jenkins with 'Pipeline as a Code' approach
-[pipeline output image](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/Jenkins_pipeline_result.JPG?raw=true)
+[pipeline output image](https://github.com/mtyagi52/devops/blob/main/Documentation%20%20a%20%E2%80%9C/Jenkins%20Result)
 
 Project Documentation
 Click [here] (https://github.com/mtyagi52/devops/blob/main/Documentation%20%20a%20%E2%80%9C/Devops%20Certification%20Project)
