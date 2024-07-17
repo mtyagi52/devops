@@ -35,7 +35,7 @@ node {
 	//push image to remote repository , in your jenkins you have to create the global credentials similar to the 'dockerHub' (credential ID)
     stage('Push Image to Remote Repo'){
 	 echo "Docker Image Tag Name ---> ${dockerImageTag}"
-	     docker.withRegistry('', 'DockerHub') {
+	     docker.withRegistry('', '91298e80-8305-41ed-a9bc-ee3bd4ed8136') {
              dockerImage.push("${env.BUILD_NUMBER}")
              dockerImage.push("latest")
             }
